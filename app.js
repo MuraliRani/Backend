@@ -11,9 +11,9 @@ const profileRoutes = require("./routes/profileRoutes");
 app.use(express.json());
 app.use(cors());
 
-// app.get("/",(req,res)=>{
-//   res.send("Server is Running...............")
-// })
+app.get("/",(req,res)=>{
+  res.send("Server is Running...............")
+})
 // mongoose configuration
 mongoose.set('strictQuery', false);
 
