@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/",(req,res)=>{
-  res.send("Welcome")
+  res.send("Server is Running...............")
 })
 // mongoose configuration
 mongoose.set('strictQuery', false);
